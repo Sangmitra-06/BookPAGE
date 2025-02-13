@@ -36,7 +36,7 @@ Books, while often rich in cultural insights, can also mirror societal biases of
       - `prompt_gemini.py`: Prompts Gemini on the REPs
       - `prompt_llama.py`: Prompts Llama on the REPs
       - `prompt_mixtral.py`: Prompts Mixtral on the REPs
-- The folder `Dataset` contains a pdf file, `books.pdf`, that lists all book titles used in each decade of BookPAGE, complete with hyperlinks for retrieving the books online
+- The folder `Dataset` contains a pdf file, `books.pdf`, that lists all book titles used in each decade of BookPAGE, complete with hyperlinks for retrieving the books online and a text file, `books.txt` with book titles in each decade
 
 ## 💻 Instructions to Run
 1. **Installation**: To install the required dependencies, run the following command:
