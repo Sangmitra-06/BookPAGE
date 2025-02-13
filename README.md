@@ -52,3 +52,17 @@ Books, while often rich in cultural insights, can also mirror societal biases of
     ```
 
     Replace `script_name.py` with the name of the script you want to run.
+
+## ✏️ Reference
+Please use the following bibtex citation if STOP was a part of your work, thank you!
+```
+@misc{madhusudan2025finetunedllmstimecapsules,
+      title={Fine-Tuned LLMs are "Time Capsules" for Tracking Societal Bias Through Books}, 
+      author={Sangmitra Madhusudan and Robert Morabito and Skye Reid and Nikta Gohari Sadr and Ali Emami},
+      year={2025},
+      eprint={2502.05331},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.05331}, 
+}
+```
