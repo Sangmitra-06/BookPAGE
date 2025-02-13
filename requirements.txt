@@ -1,0 +1,14 @@
+openai
+rdflib
+tqdm
+pdfplumber
+jsonlines
+json
+time
+vertexai
+random
+os
+google-cloud-aiplatform
+spacy
+glove
+nltk
