@@ -54,15 +54,26 @@ Books, while often rich in cultural insights, can also mirror societal biases of
     Replace `script_name.py` with the name of the script you want to run.
 
 ## ✏️ Reference
-Please use the following bibtex citation if STOP was a part of your work, thank you!
+Please use the following bibtex citation if this paper was a part of your work, thank you!
 ```
-@misc{madhusudan2025finetunedllmstimecapsules,
-      title={Fine-Tuned LLMs are "Time Capsules" for Tracking Societal Bias Through Books}, 
-      author={Sangmitra Madhusudan and Robert Morabito and Skye Reid and Nikta Gohari Sadr and Ali Emami},
-      year={2025},
-      eprint={2502.05331},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.05331}, 
+@inproceedings{madhusudan-etal-2025-fine,
+    title = "Fine-Tuned {LLM}s are {\textquotedblleft}Time Capsules{\textquotedblright} for Tracking Societal Bias Through Books",
+    author = "Madhusudan, Sangmitra  and
+      Morabito, Robert  and
+      Reid, Skye  and
+      Sadr, Nikta Gohari  and
+      Emami, Ali",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.118/",
+    pages = "2329--2358",
+    ISBN = "979-8-89176-189-6",
+    abstract = "Books, while often rich in cultural insights, can also mirror societal biases of their eras{---}biases that Large Language Models (LLMs) may learn and perpetuate during training. We introduce a novel method to trace and quantify these biases using fine-tuned LLMs. We develop BookPAGE, a corpus comprising 593 fictional books across seven decades (1950-2019), to track bias evolution. By fine-tuning LLMs on books from each decade and using targeted prompts, we examine shifts in biases related to gender, sexual orientation, race, and religion. Our findings indicate that LLMs trained on decade-specific books manifest biases reflective of their times, with both gradual trends and notable shifts. For example, model responses showed a progressive increase in the portrayal of women in leadership roles (from 8{\%} to 22{\%}) from the 1950s to 2010s, with a significant uptick in the 1990s (from 4{\%} to 12{\%}), possibly aligning with third-wave feminism. Same-sex relationship references increased markedly from the 1980s to 2000s (from 0{\%} to 10{\%}), mirroring growing LGBTQ+ visibility. Concerningly, negative portrayals of Islam rose sharply in the 2000s (26{\%} to 38{\%}), likely reflecting post-9/11 sentiments. Importantly, we demonstrate that these biases stem mainly from the books' content and not the models' architecture or initial training. Our study offers a new perspective on societal bias trends by bridging AI, literary studies, and social science research."
 }
 ```
